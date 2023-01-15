@@ -129,6 +129,7 @@ color: #727272;
     padding-left: 100px;
     padding-top: 100px;
 }
+
 .features-title{
     padding-left: 20px;
     font-weight: 700;
@@ -160,6 +161,100 @@ padding-bottom: 25px;
     font-weight: 400;
     font-size: 16px;
     color: #727272;
+}
+.features-button{
+    display: flex;
+    justify-content: center;
+
+}
+.features-primary-button{
+    font-weight: 600;
+    font-size: 35px;
+    color: #FFFFFF;
+    padding: 15px 20px;
+    background-color: 
+    #FF900E;
+    border-radius: 8px;
+    border: none;
+}
+.feature-btn{
+    font-size: 15px;
+}
+/* facts-styles */
+.facts-title{
+    padding-left: 220px;
+    padding-top: 115px;
+    font-weight: 700;
+font-size: 45px;
+}
+.facts-description{
+    padding-left: 220px;
+    padding-top: 20px;
+    font-weight: 400;
+font-size: 16px;
+color: #727272;
+padding-bottom: 80px;
+}
+.some-facts{
+     display: flex;
+     justify-content: space-evenly;
+}
+.facts-container{
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    box-sizing: border-box;
+    width: 241.60px;
+    height: 241.60px;
+}
+.facts-container img{
+    padding-top: 60px;
+    padding-left: 97px;
+}
+.facts-container p{
+    text-align: center;
+}
+.number{
+    font-weight: 600;
+font-size: 45px;
+}
+.facts-name{
+ color: #727272;
+ font-weight: 600;
+font-size: 20px;
+}
+/* sponsors styles */
+.sponsors{
+   text-align: center;
+   padding-top: 170px;
+}
+.sponsors-title{
+    font-weight: 700;
+font-size: 45px;
+padding-bottom: 15px;
+}
+.sponsors-description{
+    font-weight: 400;
+font-size: 16px;
+color: #727272;
+}
+.sponsors img{
+    padding-top: 80px;
+    padding-bottom: 150px;
+    padding-left: 100px;
+}
+.footer{
+    width: 1140px;
+    height: 80px;
+    background-color: #FFF4E7;
+    margin-left: 200px;
+    margin-bottom: 150px;
+}
+.footer p{
+    padding-top: 30px ;
+    font-weight: 400;
+font-size: 20px;
+color: #727272;
+text-align: center;
 }
 
     
