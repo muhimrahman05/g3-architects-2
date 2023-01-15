@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-container{
+    height: 75px;
+    width: 100%;
+    line-height: 75px;
+    padding-left: 145px;
+    padding-right: 125px;
+
+}
+.nav-title{
+    font-weight: 700;
+    font-size: 25px;
+    float: left;
+    color: #131313;
+}
+.nav-list{
+    float: right;
+}
+nav li{
+    display: inline;
+    list-style: none;
+}
+nav li a{
+    text-decoration: none;
+    padding: 0 15px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #131313;
+}
+/* Banner Styles */
+.banner{
+    background-color:  #FFF4E7;
+}
+.banner-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 40px;
+}
+.banner-title{
+    text-align: center;
+    font-weight: 700;
+font-size: 58px;
+padding-bottom:20px;
+padding-top: 50px;
+}
+.banner-description{
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+.btn{
+    padding-top: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+.primary-btn{
+    font-weight: 600;
+font-size: 20px;
+color: #FFFFFF;
+padding: 15px 20px;
+background-color: 
+#FF900E;
+border-radius: 8px;
+border: none;
+}
+.banner-image{
+    height: 550px;
+     width: 1200px;
+     border-radius: 8px;
+    
+}
+/* Features List styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.features-list {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.grid-container{
+    padding: 50px 0;
+      display: grid;
+      grid-template-columns: repeat(2, 342px);
+      gap: 20px;
+}
+.features-list-title{
+    font-weight: 500;
+font-size: 45px; 
+}
+.grey-text{
+   color: #727272;
+}
+.orange-text{
+    font-weight: 700;
+font-size: 45px;
+color: #FF900E;
+}
+.features-list-description{
+    font-weight: 400;
+font-size: 16px;
+padding-top: 20px;
+color: #727272;
+}
+.features-list-button{
+    padding-top: 30px;
+}
+/* Features Styles */
+.features{
+    height: 1000px;
+    background-size: 600px 900px;
+    background-image: url('../images/architect.png');
+    margin-right: 100px;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    background-position: right;
+
+}
+.features-container{
+    padding-left: 100px;
+    padding-top: 100px;
+}
+.features-title{
+    padding-left: 20px;
+    font-weight: 700;
+font-size: 45px;
+}
+.features-description{
+    font-weight: 400;
+font-size: 16px;
+color: #727272;
+padding-top: 20px;
+padding-bottom: 25px;
+}
+.box{
+    padding-bottom: 20px;
+}
+.features-box{
+     background-color: white;
+     padding: 30px 40px;
+     box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+     border-radius: 8px;
+     Width:586px;
+    Height:171px;
+}
+.features-box-title{
+    font-weight: 600;
+    font-size: 20px;
+}
+.features-box-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+    
+
+
+    
